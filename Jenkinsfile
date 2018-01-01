@@ -7,7 +7,7 @@ pipeline {
    stages{
     stage('cloning the code'){ 
         steps{
-            git 'https://github.com/spring-projects/spring-petclinic.git'
+            git 'https://github.com/MSanjanatelkar/JenkinsPipeline/tree/master/spring-petclinic'
         }
     }
     stage ('maven build'){
